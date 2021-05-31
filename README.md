@@ -17,7 +17,18 @@ See examples under [sample/](sample/) directory.
 
 ## Table of contents
  1. [Description](#Description)
+ 1. [Installation](#Installation)
  1. [Known limitations](#KnownLimitations)
+
+<a name="Installation"></a>
+## Installation
+`AnalogMTK.jl` is not yet registered with Julia's **General** registry.
+It can nonetheless be installed using the library's URL from Julia's built-in package manager:
+
+```julia-repl
+julia> ]
+pkg> add https://github.com/ma-laforge/AnalogMTK.jl
+```
 
 <a name="KnownLimitations"></a>
 ## Known limitations
