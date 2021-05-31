@@ -1,0 +1,13 @@
+Manifest.toml
+*.pyc
+.*.swp
+
+#Output files
+*.hdf5
+*.png
+*.eps
+*.svg
+*.pdf
+
+#Jupyter files
+.ipynb_checkpoints/
