@@ -31,8 +31,8 @@ println()
 ===============================================================================#
 @named resistor = Resistor(R=R)
 @named capacitor = Capacitor(C=C)
-#@named source = ConstantVoltage(V=V)
-@named source = SineSource(V=V, f=𝑓) #ConstantVoltage(V=V)
+#@named source = VSource(V)
+@named source = VSource(Sine(A=V, f=𝑓))
 @named ground = Ground()
 
 rc_eqs = [
